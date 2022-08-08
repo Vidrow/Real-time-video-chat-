@@ -1,0 +1,29 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+video{
+    width: 100%;
+    border: 2px solid burlywood;
+    background-color: aquamarine;
+}
+
+@media screen and (max-width:800px) {
+    body{
+        width:100%;
+    }
+}
+
+textarea{
+    height: 50px;
+    width: 100%;
+}
+
+#videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    width: 100%;
+    padding: 10px;
+}
